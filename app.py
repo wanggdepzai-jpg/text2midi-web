@@ -348,12 +348,3 @@ class MidiApp:
 # =========================
 #  MAIN
 # =========================
-if __name__ == "__main__":
-    root = tk.Tk()
-    style = ttk.Style()
-    try:
-        style.theme_use("clam")  # Dark theme nếu có
-    except:
-        pass
-    app = MidiApp(root)
-    root.mainloop()
