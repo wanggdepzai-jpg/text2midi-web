@@ -1,10 +1,8 @@
-import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
-from PIL import Image, ImageDraw, ImageFont, ImageTk
+import streamlit as st
+from PIL import Image, ImageDraw, ImageFont
 from mido import Message, MidiFile, MidiTrack
+import tempfile
 import os
-from datetime import datetime  # Để thêm timestamp cho log
-
 
 # =========================
 # 🎵 CORE CONVERSION
